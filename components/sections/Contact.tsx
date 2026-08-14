@@ -2,7 +2,7 @@
 
 import React, { useState } from "react"
 import { Mail, Phone, Send, CheckCircle2, AlertCircle, Loader2 } from "lucide-react"
-import { motion } from "framer-motion"
+import { motion, Variants } from "framer-motion"
 import { cn } from "@/lib/utils"
 
 // ============ DATA MERGED HERE ============
@@ -86,10 +86,14 @@ export function Contact() {
     }
   }
 
-  const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }
+ const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { duration: 0.5, ease: "easeOut" } 
   }
+};
 
   return (
     <section id="contact" className="relative overflow-hidden bg-[#F3F8FF] py-24 md:py-32 font-sans">
