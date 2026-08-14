@@ -304,7 +304,7 @@ export function Header() {
 
               <div className="p-6 border-t border-gray-100 bg-gray-50/50">
                 <a 
-                  href="#contact" 
+                  href="/#contact" 
                   onClick={() => setIsMobileOpen(false)}
                   className="flex w-full h-12 items-center justify-center rounded-xl bg-[#7E30E1] text-base font-semibold text-white shadow-lg shadow-[#7E30E1]/30 active:scale-95 transition-all"
                 >
