@@ -57,10 +57,10 @@ export function Footer() {
       { label: "HealthTech", href: "/industries/healthtech", icon: <Activity className="w-4 h-4" /> },
     ],
     company: [
-      { label: "Our Process", href: "#process" },
-      { label: "Portfolio", href: "#portfolio" },
-      { label: "FAQ", href: "#faq" },
-      { label: "Contact", href: "#contact" },
+      { label: "Our Process", href: "/#process" },
+      { label: "Portfolio", href: "/#portfolio" },
+      { label: "FAQ", href: "/#faq" },
+      { label: "Contact", href: "/#contact" },
     ],
     legal: [
       { label: "Privacy Policy", href: "#" },
