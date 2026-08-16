@@ -92,7 +92,7 @@ export function Header() {
                 <span className="hidden sm:inline-block h-1.5 w-1.5 rounded-full bg-[#D5C6F5]"></span>
                 <span>Launch your MVP in 14 days — 2 slots left for August</span>
                 <a 
-                  href="#contact" 
+                  href="/#contact" 
                   className="font-bold underline underline-offset-2 hover:text-[#D5C6F5] transition-colors flex items-center gap-1 ml-1"
                 >
                   Book now <ArrowRight className="h-3.5 w-3.5" />
